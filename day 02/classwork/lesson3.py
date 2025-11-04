@@ -1,0 +1,1 @@
+print(True or True and False and True or False and True and True or False and True or False and False and False or True or False )
