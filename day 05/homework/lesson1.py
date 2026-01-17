@@ -1,4 +1,4 @@
-# Input — ეს არის ის, რასაც მომხმარებელი შეჰყავს პროგრამაში. მაგალითად, როცა ვწერთ სახელებს, რიცხვებს და სხვა инфოს.
+# Input — ეს არის ის, რასაც მომხმარებელი შეჰყავს პროგრამაში. მაგალითად, როცა ვწერთ სახელებს, რიცხვებს და სხვა ფოსოს.
 # Output — ეს არის ის, რასაც პროგრამა ბეჭდავს ekraanze — პასუხები, შეტყობინებები, შედეგები.
 
 # მოკლედ:
@@ -27,19 +27,19 @@
 
 
 
-name = input("Enter your name: ")
-surname = input("Enter your surname: ")
+# name = input("Enter your name: ")
+# surname = input("Enter your surname: ")
 
-if len(name) > 8:
-    print("try again")
-else:
-    password = input("Create password: ")
-    repeat = input("Repeat password: ")
+# if len(name) > 8:
+#     print("try again")
+# else:
+#     password = input("Create password: ")
+#     repeat = input("Repeat password: ")
 
-    if password == repeat:
-        print("Registration complete!")
-    else:
-        print("Passwords don't match")
+#     if password == repeat:
+#         print("Registration complete!")
+#     else:
+#         print("Passwords don't match")
 
 
 
